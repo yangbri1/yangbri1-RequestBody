@@ -21,7 +21,7 @@ public class App
     {
         Javalin app = JavalinSingleton.getInstance();      
 
-        app.start(9000);
+        app.start(9000);    // server listens at PORT 9000 for any incoming HTTP requests methods (POST, GET, PUT, PATCH, DELETE, etc.)
 
     }
 }
