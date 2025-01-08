@@ -62,7 +62,8 @@ public class JavalinSingleton {
             // invoke .setArtistName() method from Song class
             song.setArtistName("Beatles");
 
-            // call upon .json(obj) response method of Javalin's Context obj -- calls result(JSONString) & sets content type to JSON
+            // invoke .json(obj) response method of Javalin's Context obj -- 
+            // calls result(JSONString) & sets content type to JSON
             // aka return updated 'song' obj as JSON String format
             ctx.json(song);
                
